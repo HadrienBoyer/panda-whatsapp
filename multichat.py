@@ -6,7 +6,7 @@ import requests
 # python3 server.py --port 5001 --profile /tmp/chat1
 # python3 server.py --port 5002 --profile /tmp/chat2
 
-metaprompt = "Now make that funnier."
+metaprompt = "OK. Good. Now make that funnier, please."
 chat1 = requests.get(
     "http://localhost:5001/chat?q=%s" % "Teach me about quantum mechanics in a 140 characters or less."
 )
